@@ -12,10 +12,10 @@ urbnthemes <- data %>%
   ggplot(aes(x, y)) +
   geom_point(color = "#9d9d9d", shape = 15, size = 0.4) +
   annotate("rect", xmin = 3.5, xmax = 7.5, ymin = 2.5, ymax = 5.5, fill = "#f5f5f5") +
-  geom_text(aes(6.5, 4.7, label = "urbn"),
+  geom_text(aes(6.5, 4.7, label = "kmsd"),
             size = 20,
             color = "#1696d2") +
-  geom_text(aes(7, 3, label = "themes"),
+  geom_text(aes(7, 3, label = "stats"),
             size = 10) +
   scale_x_continuous(limits = c(-5, 10)) +
   scale_y_continuous(limits = c(-5, 10)) +
